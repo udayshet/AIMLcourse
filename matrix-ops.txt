@@ -1,0 +1,11 @@
+import numpy as np
+a=np.random.rand(5)
+b=np.random.rand(5,1)
+print(a)
+print(a.shape)
+print(b)
+print(b.shape)
+print(a.T)
+print(b.T)
+print(np.dot(a,a.T))
+print(np.dot(b,b.T))
