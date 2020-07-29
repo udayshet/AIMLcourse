@@ -2,6 +2,7 @@ import numpy as np
 a=np.random.rand(5)
 #a is a Rank 1 array. Do not use
 #assert(a.shape==(5,1))
+#a=a.reshape(5.1)
 #convert to column vector as b below or row vector as c=random.rand(1,5)
 b=np.random.rand(5,1)
 print(a)
